@@ -8,3 +8,9 @@ export type SquareType = {
 export type StatusType = {
     text: string;
 };
+
+export type BoardType = {
+    xIsNext: boolean;
+    squares: SquareValueType [][];
+    onPlay: (squares: SquareValueType [][]) => void;
+};
