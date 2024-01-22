@@ -1,10 +1,10 @@
 import './App.css';
-import Square from './components/square';
+import Board from './ui/board';
 
 function App() {
   return (
     <div className="App">
-      <Square char='1'/>
+      <Board />
     </div>
     
   );
